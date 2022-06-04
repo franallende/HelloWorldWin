@@ -17,7 +17,7 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (32.0f));
-    g.setColour (juce::Colours::white);
+    g.setColour (juce::Colours::darkred);
     g.drawText ("Hello World!HolaGato", getLocalBounds(), juce::Justification::centred, true);
 }
 
